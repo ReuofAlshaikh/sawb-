@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-web/
+apps/mobile/android/
+apps/mobile/ios/
+apps/mobile/.expo/
+apps/server/data/*.json
+*.apk
+*.aab
+*.ipa
+.env
+.DS_Store

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sawb-demo
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: SAWB_DATA
+        value: /tmp/db.json   # free plan has no disk: data resets on redeploy, which suits a demo
